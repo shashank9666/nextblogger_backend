@@ -1,3 +1,6 @@
 ::1 - anonymous [14/Aug/2025:09:39:02 +0000] "GET /api/posts HTTP/1.1" 200 6711 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 471.504 ms
 ::1 - anonymous [14/Aug/2025:09:39:06 +0000] "GET /api/posts HTTP/1.1" 200 6711 "-" "node" 644.243 ms
 ::1 - anonymous [14/Aug/2025:09:39:06 +0000] "GET /api/posts HTTP/1.1" 200 6711 "-" "node" 584.806 ms
+::1 - anonymous [14/Aug/2025:09:43:13 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 4.798 ms
+::1 - anonymous [14/Aug/2025:09:43:13 +0000] "GET /favicon.ico HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 0.675 ms
+::1 - anonymous [14/Aug/2025:09:43:20 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 800.437 ms
