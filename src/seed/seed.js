@@ -15,6 +15,10 @@ const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 async function run() {
   try {
     const { MONGODB_URI } = process.env;
@@ -41,7 +45,7 @@ async function run() {
         lastLogin: new Date(),
       },
       {
-        name: "Bob Editor", 
+        name: "Bob Editor",
         email: "bob@example.com",
         avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
         bio: "Senior developer and tech lead with 8+ years experience.",
@@ -52,7 +56,7 @@ async function run() {
       },
       {
         name: "Carol Designer",
-        email: "carol@example.com", 
+        email: "carol@example.com",
         avatarUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
         bio: "UI/UX designer turned developer.",
         role: "user",
@@ -86,7 +90,7 @@ async function run() {
         },
       },
       {
-        title: "How We Built NextBlogger: Architecture Deep Dive", 
+        title: "How We Built NextBlogger: Architecture Deep Dive",
         content: "Building NextBlogger involved a modern, scalable stack...",
         excerpt: "Deep dive into NextBlogger's architecture, tech stack, and challenges.",
         category: "Technology",
@@ -106,7 +110,7 @@ async function run() {
         title: "Getting Started with Next.js: A Complete Guide",
         content: "Getting started with Next.js opens the door to modern React development...",
         excerpt: "A practical introduction to building with Next.js—SSR, SSG, API routes, and modern patterns.",
-        category: "Tutorial", 
+        category: "Tutorial",
         tags: ["nextjs", "guide", "react", "ssr", "ssg"],
         authorId: emailToId.get("carol@example.com"),
         published: true,
@@ -132,38 +136,28 @@ async function run() {
         createdAt: new Date(),
       },
       {
-        userId: emailToId.get("bob@example.com"), 
+        userId: emailToId.get("bob@example.com"),
         postId: insertedPosts[2]._id,
         createdAt: new Date(),
       },
     ]);
 
-    // Create analytics
+    // Create analytics dynamically for each post
+    console.log("📊 Seeding analytics...");
     const now = new Date();
-    await Analytics.insertMany([
-      {
-        postId: insertedPosts._id,
-        authorId: insertedPosts.authorId,
-        date: now,
-        views: 42,
-        likes: 12,
-        shares: 5,
-        readDuration: 8.5,
-        createdAt: now,
-        updatedAt: now,
-      },
-      {
-        postId: insertedPosts[1]._id,
-        authorId: insertedPosts[1].authorId,
-        date: now,
-        views: 128,
-        likes: 34,
-        shares: 18,
-        readDuration: 6.2,
-        createdAt: now,
-        updatedAt: now,
-      },
-    ]);
+    const analyticsData = insertedPosts.map(post => ({
+      postId: post._id,
+      authorId: post.authorId,
+      date: now,
+      views: randomInt(30, 200),
+      likes: randomInt(5, 50),
+      shares: randomInt(1, 20),
+      readDuration: parseFloat((Math.random() * (10 - 3) + 3).toFixed(1)), // 3.0 to 10.0 mins
+      createdAt: now,
+      updatedAt: now,
+    }));
+
+    await Analytics.insertMany(analyticsData);
 
     console.log("🎉 Database seeding completed successfully!");
   } catch (error) {
