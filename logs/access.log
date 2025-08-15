@@ -4,3 +4,233 @@
 ::1 - anonymous [14/Aug/2025:09:43:13 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 4.798 ms
 ::1 - anonymous [14/Aug/2025:09:43:13 +0000] "GET /favicon.ico HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 0.675 ms
 ::1 - anonymous [14/Aug/2025:09:43:20 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 800.437 ms
+::1 - anonymous [14/Aug/2025:10:05:14 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 540.472 ms
+::1 - anonymous [14/Aug/2025:10:05:18 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 540.912 ms
+::1 - anonymous [14/Aug/2025:10:05:18 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 639.722 ms
+::1 - anonymous [14/Aug/2025:10:06:12 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 503.053 ms
+::1 - anonymous [14/Aug/2025:10:06:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 379.844 ms
+::1 - anonymous [14/Aug/2025:10:06:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 1279.997 ms
+::1 - anonymous [14/Aug/2025:10:06:41 +0000] "GET /posts HTTP/1.1" 404 29 "-" "node" 0.328 ms
+::1 - anonymous [14/Aug/2025:10:06:41 +0000] "GET /posts HTTP/1.1" 404 29 "-" "node" 0.193 ms
+::1 - anonymous [14/Aug/2025:10:07:17 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 340.200 ms
+::1 - anonymous [14/Aug/2025:10:07:19 +0000] "GET /posts HTTP/1.1" 404 29 "-" "node" 0.288 ms
+::1 - anonymous [14/Aug/2025:10:07:22 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 234.593 ms
+::1 - anonymous [14/Aug/2025:10:07:22 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 236.884 ms
+::1 - anonymous [14/Aug/2025:10:07:23 +0000] "GET /posts HTTP/1.1" 404 29 "-" "node" 0.987 ms
+::1 - anonymous [14/Aug/2025:10:07:29 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 337.607 ms
+::1 - anonymous [14/Aug/2025:10:07:30 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 898.711 ms
+::1 - anonymous [14/Aug/2025:10:07:30 +0000] "GET /posts HTTP/1.1" 404 29 "-" "node" 0.213 ms
+::1 - anonymous [14/Aug/2025:10:08:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 789.340 ms
+::1 - anonymous [14/Aug/2025:10:08:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 420.337 ms
+::1 - anonymous [14/Aug/2025:10:08:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 467.425 ms
+::1 - anonymous [14/Aug/2025:10:08:20 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 404.235 ms
+::1 - anonymous [14/Aug/2025:10:08:21 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 499.440 ms
+::1 - anonymous [14/Aug/2025:10:08:21 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 616.868 ms
+::1 - anonymous [14/Aug/2025:10:08:24 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 540.457 ms
+::1 - anonymous [14/Aug/2025:10:08:24 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 543.115 ms
+::1 - anonymous [14/Aug/2025:10:08:25 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 565.616 ms
+::1 - anonymous [14/Aug/2025:10:08:26 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 647.864 ms
+::1 - anonymous [14/Aug/2025:10:08:26 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 681.152 ms
+::1 - anonymous [14/Aug/2025:10:09:36 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 321.208 ms
+::1 - anonymous [14/Aug/2025:10:09:37 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 225.338 ms
+::1 - anonymous [14/Aug/2025:10:09:53 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 381.260 ms
+::1 - anonymous [14/Aug/2025:10:09:53 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 527.904 ms
+::1 - anonymous [14/Aug/2025:10:09:54 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 245.622 ms
+::1 - anonymous [14/Aug/2025:10:09:54 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 302.560 ms
+::1 - anonymous [14/Aug/2025:10:09:54 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 326.048 ms
+::1 - anonymous [14/Aug/2025:10:09:55 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 299.664 ms
+::1 - anonymous [14/Aug/2025:10:09:55 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 447.334 ms
+::1 - anonymous [14/Aug/2025:10:09:56 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 383.699 ms
+::1 - anonymous [14/Aug/2025:10:09:57 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 255.998 ms
+::1 - anonymous [14/Aug/2025:10:09:57 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 305.349 ms
+::1 - anonymous [14/Aug/2025:10:09:57 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 351.864 ms
+::1 - anonymous [14/Aug/2025:10:10:01 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 0.386 ms
+::1 - anonymous [14/Aug/2025:10:10:01 +0000] "GET /api/posts HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" - ms
+::1 - anonymous [14/Aug/2025:10:10:04 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 449.229 ms
+::1 - anonymous [14/Aug/2025:10:11:35 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 670.425 ms
+::1 - anonymous [14/Aug/2025:10:11:37 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 453.478 ms
+::1 - anonymous [14/Aug/2025:10:11:39 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 841.076 ms
+::1 - anonymous [14/Aug/2025:10:11:44 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 627.324 ms
+::1 - anonymous [14/Aug/2025:10:11:44 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 631.578 ms
+::1 - anonymous [14/Aug/2025:10:11:45 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 569.835 ms
+::1 - anonymous [14/Aug/2025:10:11:45 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 684.159 ms
+::1 - anonymous [14/Aug/2025:10:11:46 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 661.522 ms
+::1 - anonymous [14/Aug/2025:10:11:46 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 1369.199 ms
+::1 - anonymous [14/Aug/2025:10:12:44 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" 683.635 ms
+::1 - anonymous [14/Aug/2025:10:12:44 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" 733.046 ms
+::1 - anonymous [14/Aug/2025:10:12:51 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 428.604 ms
+::1 - anonymous [14/Aug/2025:10:12:51 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 431.629 ms
+::1 - anonymous [14/Aug/2025:10:12:59 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 775.285 ms
+::1 - anonymous [14/Aug/2025:10:14:02 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 618.764 ms
+::1 - anonymous [14/Aug/2025:10:14:02 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 622.510 ms
+::1 - anonymous [14/Aug/2025:10:14:48 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" 345.553 ms
+::1 - anonymous [14/Aug/2025:10:15:04 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 430.953 ms
+::1 - anonymous [14/Aug/2025:10:15:04 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 431.652 ms
+::1 - anonymous [14/Aug/2025:10:15:10 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 351.298 ms
+::1 - anonymous [14/Aug/2025:10:15:12 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 363.696 ms
+::1 - anonymous [14/Aug/2025:10:15:12 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 368.196 ms
+::1 - anonymous [14/Aug/2025:10:16:42 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 555.325 ms
+::1 - anonymous [14/Aug/2025:10:16:42 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 1164.528 ms
+::1 - anonymous [14/Aug/2025:10:16:43 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 1533.452 ms
+::1 - anonymous [14/Aug/2025:10:16:44 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 529.251 ms
+::1 - anonymous [14/Aug/2025:10:19:20 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 293.908 ms
+::1 - anonymous [14/Aug/2025:10:19:24 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 242.465 ms
+::1 - anonymous [14/Aug/2025:10:21:11 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 427.041 ms
+::1 - anonymous [14/Aug/2025:10:21:11 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 601.240 ms
+::1 - anonymous [14/Aug/2025:10:21:13 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 366.861 ms
+::1 - anonymous [14/Aug/2025:10:22:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 485.393 ms
+::1 - anonymous [14/Aug/2025:10:22:17 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 447.264 ms
+::1 - anonymous [14/Aug/2025:10:23:19 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 1475.387 ms
+::1 - anonymous [14/Aug/2025:10:23:21 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 1172.932 ms
+::1 - anonymous [15/Aug/2025:03:13:04 +0000] "GET /api/posts HTTP/1.1" 200 6686 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 349.216 ms
+::1 - anonymous [15/Aug/2025:03:13:06 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 262.665 ms
+::1 - anonymous [15/Aug/2025:03:13:06 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 277.939 ms
+::1 - anonymous [15/Aug/2025:03:13:06 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 254.551 ms
+::1 - anonymous [15/Aug/2025:03:16:13 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 288.627 ms
+::1 - anonymous [15/Aug/2025:03:16:16 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 345.739 ms
+::1 - anonymous [15/Aug/2025:03:17:35 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 360.619 ms
+::1 - anonymous [15/Aug/2025:03:17:36 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 249.835 ms
+::1 - anonymous [15/Aug/2025:03:18:29 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 247.666 ms
+::1 - anonymous [15/Aug/2025:03:18:30 +0000] "GET /api/posts HTTP/1.1" 200 6686 "-" "node" 239.021 ms
+::1 - anonymous [15/Aug/2025:03:24:12 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 420.040 ms
+::1 - anonymous [15/Aug/2025:03:24:12 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 250.892 ms
+::1 - anonymous [15/Aug/2025:03:24:19 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 378.115 ms
+::1 - anonymous [15/Aug/2025:03:24:20 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 248.576 ms
+::1 - anonymous [15/Aug/2025:03:26:36 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 243.538 ms
+::1 - anonymous [15/Aug/2025:03:26:36 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 358.594 ms
+::1 - anonymous [15/Aug/2025:03:26:37 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 268.946 ms
+::1 - anonymous [15/Aug/2025:03:32:16 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 450.298 ms
+::1 - anonymous [15/Aug/2025:03:32:16 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 702.065 ms
+::1 - anonymous [15/Aug/2025:03:33:14 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 353.728 ms
+::1 - anonymous [15/Aug/2025:03:33:24 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 283.735 ms
+::1 - anonymous [15/Aug/2025:03:33:41 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 281.917 ms
+::1 - anonymous [15/Aug/2025:03:33:41 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 286.388 ms
+::1 - anonymous [15/Aug/2025:03:34:22 +0000] "GET /api/posts HTTP/1.1" 200 6467 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 240.034 ms
+::1 - anonymous [15/Aug/2025:03:34:22 +0000] "GET /api/posts HTTP/1.1" 200 6467 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 234.750 ms
+::1 - anonymous [15/Aug/2025:03:38:21 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 363.551 ms
+::1 - anonymous [15/Aug/2025:03:40:54 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 250.946 ms
+::1 - anonymous [15/Aug/2025:03:40:54 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 361.603 ms
+::1 - anonymous [15/Aug/2025:03:40:56 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 349.344 ms
+::1 - anonymous [15/Aug/2025:03:42:35 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 352.191 ms
+::1 - anonymous [15/Aug/2025:03:42:37 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 354.371 ms
+::1 - anonymous [15/Aug/2025:03:43:12 +0000] "GET /api/posts/getting-started-with-nextjs-a-complete-guide HTTP/1.1" 200 4258 "-" "node" 509.485 ms
+::1 - anonymous [15/Aug/2025:03:44:48 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 370.668 ms
+::1 - anonymous [15/Aug/2025:03:44:48 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 282.253 ms
+::1 - anonymous [15/Aug/2025:03:44:48 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 302.050 ms
+::1 - anonymous [15/Aug/2025:03:44:52 +0000] "GET /api/posts/welcome-to-nextblogger HTTP/1.1" 200 2669 "-" "node" 401.723 ms
+::1 - anonymous [15/Aug/2025:03:44:55 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 287.206 ms
+::1 - anonymous [15/Aug/2025:03:44:55 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 307.808 ms
+::1 - anonymous [15/Aug/2025:03:44:57 +0000] "GET /api/posts/advanced-mongodb-techniques-for-modern-applications HTTP/1.1" 200 5522 "-" "node" 507.041 ms
+::1 - anonymous [15/Aug/2025:03:45:00 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 236.027 ms
+::1 - anonymous [15/Aug/2025:03:45:00 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 216.684 ms
+::1 - anonymous [15/Aug/2025:03:45:02 +0000] "GET /api/posts/getting-started-with-nextjs-a-complete-guide HTTP/1.1" 200 4360 "-" "node" 384.033 ms
+::1 - anonymous [15/Aug/2025:03:45:04 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 345.390 ms
+::1 - anonymous [15/Aug/2025:03:45:04 +0000] "GET /api/posts HTTP/1.1" 200 6467 "-" "node" 360.272 ms
+::1 - anonymous [15/Aug/2025:03:45:07 +0000] "GET /api/posts/how-we-built-nextblogger-architecture-deep-dive HTTP/1.1" 200 3681 "-" "node" 384.950 ms
+::1 - anonymous [15/Aug/2025:03:47:54 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 291.145 ms
+::1 - anonymous [15/Aug/2025:03:47:55 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 284.024 ms
+::1 - anonymous [15/Aug/2025:03:47:55 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 308.825 ms
+::1 - anonymous [15/Aug/2025:03:47:56 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 283.540 ms
+::1 - anonymous [15/Aug/2025:03:47:58 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 338.312 ms
+::1 - anonymous [15/Aug/2025:03:48:08 +0000] "GET /api/posts/getting-started-with-nextjs-a-complete-guide HTTP/1.1" 200 2205 "-" "node" 669.089 ms
+::1 - anonymous [15/Aug/2025:05:02:55 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 320.677 ms
+::1 - anonymous [15/Aug/2025:05:02:55 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 57.490 ms
+::1 - anonymous [15/Aug/2025:05:02:55 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 269.034 ms
+::1 - anonymous [15/Aug/2025:05:06:13 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 65.084 ms
+::1 - anonymous [15/Aug/2025:05:06:13 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 62.561 ms
+::1 - anonymous [15/Aug/2025:05:06:13 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 57.276 ms
+::1 - anonymous [15/Aug/2025:05:06:15 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 58.036 ms
+::1 - anonymous [15/Aug/2025:05:06:17 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 58.426 ms
+::1 - anonymous [15/Aug/2025:05:06:17 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 62.421 ms
+::1 - anonymous [15/Aug/2025:05:06:18 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 358.072 ms
+::1 - anonymous [15/Aug/2025:05:06:46 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 77.145 ms
+::1 - anonymous [15/Aug/2025:05:06:47 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 71.595 ms
+::1 - anonymous [15/Aug/2025:05:06:47 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 60.283 ms
+::1 - anonymous [15/Aug/2025:05:06:47 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 69.556 ms
+::1 - anonymous [15/Aug/2025:05:06:50 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 73.334 ms
+::1 - anonymous [15/Aug/2025:05:06:51 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 74.752 ms
+::1 - anonymous [15/Aug/2025:05:06:51 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 65.675 ms
+::1 - anonymous [15/Aug/2025:05:06:51 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 69.827 ms
+::1 - anonymous [15/Aug/2025:05:08:47 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 76.035 ms
+::1 - anonymous [15/Aug/2025:05:08:47 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 76.584 ms
+::1 - anonymous [15/Aug/2025:05:08:48 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 70.873 ms
+::1 - anonymous [15/Aug/2025:05:10:28 +0000] "GET / HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 6.754 ms
+::1 - anonymous [15/Aug/2025:05:10:28 +0000] "GET /favicon.ico HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 0.964 ms
+::1 - anonymous [15/Aug/2025:05:10:30 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 84.164 ms
+::1 - anonymous [15/Aug/2025:05:10:37 +0000] "GET /api/users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 34.780 ms
+::1 - anonymous [15/Aug/2025:05:10:41 +0000] "GET /api HTTP/1.1" 404 29 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 0.230 ms
+::1 - anonymous [15/Aug/2025:05:10:45 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 72.349 ms
+::1 - anonymous [15/Aug/2025:05:10:47 +0000] "GET /api/posts/new HTTP/1.1" 404 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 42.667 ms
+::1 - anonymous [15/Aug/2025:05:10:49 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 72.070 ms
+::1 - anonymous [15/Aug/2025:05:11:14 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 82.183 ms
+::1 - anonymous [15/Aug/2025:05:11:15 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 69.537 ms
+::1 - anonymous [15/Aug/2025:05:11:15 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 70.779 ms
+::1 - anonymous [15/Aug/2025:05:11:15 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 72.006 ms
+::1 - anonymous [15/Aug/2025:05:11:16 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 73.507 ms
+::1 - anonymous [15/Aug/2025:05:11:17 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 80.350 ms
+::1 - anonymous [15/Aug/2025:05:11:17 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 77.922 ms
+::1 - anonymous [15/Aug/2025:05:11:17 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 73.876 ms
+::1 - anonymous [15/Aug/2025:05:11:23 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 74.375 ms
+::1 - anonymous [15/Aug/2025:05:11:24 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 74.499 ms
+::1 - anonymous [15/Aug/2025:05:11:24 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 68.434 ms
+::1 - anonymous [15/Aug/2025:05:11:24 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 67.587 ms
+::1 - anonymous [15/Aug/2025:05:16:35 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 89.924 ms
+::1 - anonymous [15/Aug/2025:05:16:36 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 70.738 ms
+::1 - anonymous [15/Aug/2025:05:16:36 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 73.488 ms
+::1 - anonymous [15/Aug/2025:05:16:37 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 74.038 ms
+::1 - anonymous [15/Aug/2025:05:16:37 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 75.684 ms
+::1 - anonymous [15/Aug/2025:05:16:38 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 88.543 ms
+::1 - anonymous [15/Aug/2025:05:24:42 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 82.775 ms
+::1 - anonymous [15/Aug/2025:05:24:42 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 71.238 ms
+::1 - anonymous [15/Aug/2025:05:24:42 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 69.676 ms
+::1 - anonymous [15/Aug/2025:05:24:43 +0000] "GET /api/posts HTTP/1.1" 200 103 "-" "node" 331.350 ms
+::1 - anonymous [15/Aug/2025:05:26:33 +0000] "GET /api/posts HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 87.932 ms
+::1 - anonymous [15/Aug/2025:05:34:06 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 129.763 ms
+::1 - anonymous [15/Aug/2025:05:34:07 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 108.667 ms
+::1 - anonymous [15/Aug/2025:05:34:07 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 109.079 ms
+::1 - anonymous [15/Aug/2025:05:34:07 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 110.172 ms
+::1 - anonymous [15/Aug/2025:05:36:49 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 120.640 ms
+::1 - anonymous [15/Aug/2025:05:36:50 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 119.293 ms
+::1 - anonymous [15/Aug/2025:05:36:50 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 125.215 ms
+::1 - anonymous [15/Aug/2025:05:36:50 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 116.401 ms
+::1 - anonymous [15/Aug/2025:05:39:33 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 111.603 ms
+::1 - anonymous [15/Aug/2025:05:39:35 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 110.686 ms
+::1 - anonymous [15/Aug/2025:05:39:35 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 111.872 ms
+::1 - anonymous [15/Aug/2025:05:39:35 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 110.207 ms
+::1 - anonymous [15/Aug/2025:05:40:18 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 113.494 ms
+::1 - anonymous [15/Aug/2025:05:40:19 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 113.932 ms
+::1 - anonymous [15/Aug/2025:05:40:19 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 103.216 ms
+::1 - anonymous [15/Aug/2025:05:40:19 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 108.139 ms
+::1 - anonymous [15/Aug/2025:05:40:28 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 107.713 ms
+::1 - anonymous [15/Aug/2025:05:40:29 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 111.163 ms
+::1 - anonymous [15/Aug/2025:05:40:29 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 110.693 ms
+::1 - anonymous [15/Aug/2025:05:40:29 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 201.679 ms
+::1 - anonymous [15/Aug/2025:05:40:37 +0000] "GET /api/posts/welcome-to-nextblogger HTTP/1.1" 200 2145 "-" "node" 175.737 ms
+::1 - anonymous [15/Aug/2025:05:40:42 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 110.848 ms
+::1 - anonymous [15/Aug/2025:05:40:42 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 115.912 ms
+::1 - anonymous [15/Aug/2025:06:00:21 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 146.556 ms
+::1 - anonymous [15/Aug/2025:06:00:21 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 154.620 ms
+::1 - anonymous [15/Aug/2025:06:00:21 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 190.629 ms
+::1 - anonymous [15/Aug/2025:06:00:32 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 166.143 ms
+::1 - anonymous [15/Aug/2025:06:00:32 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 156.455 ms
+::1 - anonymous [15/Aug/2025:06:00:32 +0000] "GET /api/posts HTTP/1.1" 200 3831 "-" "node" 161.713 ms
+::1 - anonymous [15/Aug/2025:06:06:29 +0000] "GET /api/posts/how-we-built-nextblogger-architecture-deep-dive HTTP/1.1" 200 2331 "-" "node" 221.687 ms
+::1 - anonymous [15/Aug/2025:06:06:29 +0000] "GET /api/posts/how-we-built-nextblogger-architecture-deep-dive HTTP/1.1" 200 2536 "-" "node" 172.312 ms
+::1 - anonymous [15/Aug/2025:06:06:29 +0000] "GET /api/posts/how-we-built-nextblogger-architecture-deep-dive HTTP/1.1" 200 2331 "-" "node" 443.859 ms
+::1 - anonymous [15/Aug/2025:06:07:09 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 125.519 ms
+::1 - anonymous [15/Aug/2025:06:07:09 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 124.552 ms
+::1 - anonymous [15/Aug/2025:06:07:09 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 424.549 ms
+::1 - anonymous [15/Aug/2025:06:07:14 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 125.659 ms
+::1 - anonymous [15/Aug/2025:06:07:14 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 127.441 ms
+::1 - anonymous [15/Aug/2025:06:07:17 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 128.581 ms
+::1 - anonymous [15/Aug/2025:06:07:17 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 137.052 ms
+::1 - anonymous [15/Aug/2025:06:13:51 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 378.895 ms
+::1 - anonymous [15/Aug/2025:06:13:59 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 120.689 ms
+::1 - anonymous [15/Aug/2025:06:13:59 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 119.002 ms
+::1 - anonymous [15/Aug/2025:06:13:59 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 117.245 ms
+::1 - anonymous [15/Aug/2025:06:14:05 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 110.332 ms
+::1 - anonymous [15/Aug/2025:06:14:05 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 113.685 ms
+::1 - anonymous [15/Aug/2025:06:14:13 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 115.557 ms
+::1 - anonymous [15/Aug/2025:06:14:13 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 117.221 ms
+::1 - anonymous [15/Aug/2025:06:16:30 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 139.404 ms
+::1 - anonymous [15/Aug/2025:06:16:30 +0000] "GET /api/posts HTTP/1.1" 200 3831 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 135.715 ms
