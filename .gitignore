@@ -1,0 +1,9 @@
+.env* 
+.env
+
+/build
+
+cred.md
+/node_modules
+/node_modules*
+.vercel
