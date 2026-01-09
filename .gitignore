@@ -2,7 +2,7 @@
 .env
 
 /build
-
+package-lock.json
 cred.md
 /node_modules
 /node_modules*
